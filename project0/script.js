@@ -1,22 +1,22 @@
 function lightmode()
 {
-  let x = document.querySelectorAll('body *');
+  let x = document.querySelector('body');
+  x.style.backgroundColor = 'white';
   let y = document.querySelectorAll('div *');
   for(let i = 0; i < y.length; i++)
   {
     y[i].style.color = '#404040';
-    x[i].style.backgroundColor = 'white';
   }
 }
 
 function darkmode()
 {
-  let x = document.querySelectorAll('body *');
+  let x = document.querySelector('body');
+  x.style.backgroundColor = 'black';
   let y = document.querySelectorAll('div *');
   for(let i = 0; i < y.length; i++)
   {
     y[i].style.color = '#bfbfbf';
-
   }
 }
 
