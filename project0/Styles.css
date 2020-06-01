@@ -1,0 +1,88 @@
+body {
+    background-color: black;
+    font-family: 'Oswald', sans-serif;
+}
+.breadcrumb{
+    background-color: black;
+}
+#indexHeader{
+  text-align: center;
+  font-size: 100px;
+  margin-top: 100px;
+  color: #bfbfbf;
+  box-shadow: 200px 20px 200px rgba(0,0,0,.5), 0 10px 10px rgba(0,0,0,.5);
+}
+#version{
+  position:absolute;
+  color: #bfbfbf;
+  font-size: 20px;
+  bottom: 10px;
+  right: 20px;
+}
+.navbar-brand{
+  font-size: 30px;
+}
+.nav-item{
+  font-size: 20px;
+}
+#indexH1{
+  font-weight: 400;
+  text-indent: 20px;
+  font-size: 40px;
+}
+a{
+  color: #bfbfbf;
+}
+a:hover{
+  color: orange;
+}
+li{
+  list-style: none;
+}
+footer{
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+img{
+  width: 50%;
+  height: auto;
+}
+.img1{
+  text-align: center;
+  display: block;
+}
+.w3-row-padding img {
+  margin-top: 10px;
+  margin-left: 0px;
+  width: 100%;
+  height: auto;
+}
+#name{
+  margin-top: 100px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 45px;
+  color: #bfbfbf;
+}
+#heading{
+  margin-top: 100px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 100px;
+  color: #bfbfbf;
+}
+#project{
+  font-family: 'Oswald', sans-serif;
+  font-size: 45px;
+  color: #bfbfbf;
+}
+#projects{
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+  margin-left: 40px;
+  color: #bfbfbf;
+}
+#cs, #pythons, #miscs{
+  margin-left: 40px;
+  font-size: 25px;
+  color: #bfbfbf;
+}
