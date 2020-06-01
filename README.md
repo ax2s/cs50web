@@ -33,4 +33,4 @@ Contains a table of grades obtained on every CS50 problem set by me.
 
 # Using the website
 
-The index page can be accessed by visiting https://ax2s.github.io/cs50web/
+The index page can be accessed by visiting https://ax2s.github.io/cs50web
