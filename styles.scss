@@ -1,0 +1,71 @@
+$mycolor: #bfbfbf;
+
+body {
+    background-color: black;
+    font-family: 'Oswald', sans-serif;
+    color: $mycolor;
+}
+a{
+  color: $mycolor;
+}
+a:hover{
+  color: orange;
+}
+nav{
+  .navbar-brand{
+    font-size: 30px;
+  }
+  .nav-item{
+    font-size: 20px;
+  }
+}
+li{
+  list-style: none;
+}
+.w3-row-padding img {
+  margin-top: 10px;
+  margin-left: 0px;
+  width: 100%;
+  height: auto;
+}
+#name, #heading{
+  margin-top: 100px;
+}
+#heading{
+  font-size: 100px;
+}
+#name{
+  font-size: 45px;
+}
+#indexH1{
+  text-indent: 20px;
+  font-size: 40px;
+}
+#project{
+  font-size: 35px;
+}
+#projects{
+  font-size: 30px;
+  margin-left: 40px;
+}
+#cs, #pythons, #miscs{
+  margin-left: 40px;
+  font-size: 25px;
+}
+#pj{
+  width: 949px;
+  height: 534px;
+}
+@media only screen and (max-width: 768px) {
+  #pj{
+    width: auto;
+    height: auto;
+  }
+
+}
+#version{
+  position:absolute;
+  font-size: 20px;
+  bottom: 10px;
+  right: 20px;
+}
