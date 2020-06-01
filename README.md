@@ -10,6 +10,9 @@ Technology used:
 -HTML
 -CSS
 -JS
+-SCSS
+-Bootstrap
+-W3.CSS
 
 ## Functionality
 
